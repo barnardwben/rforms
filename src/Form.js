@@ -5,6 +5,7 @@ const Form = () => {
   return (
     <>
       <article>
+        <h3>Practice with React forms</h3>
         <form className="form-container">
           <div>
             <label htmlFor="firstName">Name : </label>
