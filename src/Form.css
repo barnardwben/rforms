@@ -1,12 +1,44 @@
 article {
   margin: 10rem 0;
   width: 350px;
-  background: rgb(207, 207, 207);
+  height: 275px;
+  background: rgb(255, 255, 255);
   padding: 2rem;
   border-radius: 5px;
+  text-align: center;
 }
 
 h3 {
   text-align: center;
   font-size: 1.5rem;
+}
+
+.form-container > div {
+  display: flex;
+  /* text-align: center; */
+  position: relative;
+  margin: 1.75rem 0;
+}
+
+label {
+  position: relative;
+  left: 0;
+  margin: 0 1rem;
+}
+
+input {
+  position: absolute;
+  right: 0;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  background: rgb(241, 241, 241);
+  width: 220px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  background: rgb(102, 192, 219);
 }
