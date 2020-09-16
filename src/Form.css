@@ -1,5 +1,5 @@
 article {
-  margin: 10rem 0;
+  margin: 7rem 0;
   width: 350px;
   height: 275px;
   background: rgb(255, 255, 255);
@@ -41,4 +41,17 @@ button {
   border: none;
   padding: 0.5rem 1.25rem;
   background: rgb(102, 192, 219);
+}
+
+.person-list {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  position: relative;
+  top: 3rem;
+  left: -2rem;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 1rem 0;
 }
